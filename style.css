@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* making top nav in the right corner */
+.top-nav ul, li {
+    display: flex;
+    padding: 0 1.3rem;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.top-nav {
+    width: 93%;
+    margin-top: 1rem;
+}
+
+
+a {
+    text-decoration: none;
+    color: rgb(56, 56, 56);
+}
+
+.tel-number-link span {
+    font-size: 0.93em;
+    color: blue;
+    margin-left: 0.5rem;
+}
+
+/* working on the header right now */
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
