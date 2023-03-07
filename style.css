@@ -34,7 +34,40 @@ a {
 /* working on the header right now */
 
 header {
+    height: 4.5rem;
     display: flex;
     align-items: center;
     margin-top: 1rem;
+    background-color: black;
+}
+
+header h1 {
+    margin: 0 4rem;
+    font-size: 2.4rem;
+}
+
+header h1 a {
+    color: yellow;
+}
+
+header h1 span {
+    color: white;
+}
+.search-input {
+    display: flex;
+}
+
+.search-input button {
+    background-color: yellow;
+    border: 0;
+    width: 3rem;
+}
+
+.search-input input {
+    width: 30rem;
+    height: 2.6rem;
+    border: 1px;
+    border-right: 0;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0;
 }
