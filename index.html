@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Amator</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
     <nav class="top-nav">
@@ -17,17 +18,24 @@
         </ul>
     </nav>
     <header>
-        <h1><a>media<span>amator</span></a></h1>
+        <div class="content-wrapper">
+        <h1><a href="#">media<span>amator</span></a></h1>
         <div class="search-input">
             <input type="text" placeholder="Wyszukaj w sklepie">
             <button type="submit"></button>
         </div>
         <div class="login-link">
-            <a href="#">Moje konto</a>
-            <a href="#">Zaloguj/Zarejestruj</a>
+            <a href="#" class="nav-text">Moje konto</a><br>
+            <a href="#" class="nav-text">Zaloguj/Zarejestruj</a>
         </div>
-        <a href="#">Schowek</a>
-        <a href="#">Koszyk</a>
+        <a href="#" class="material-symbols-outlined">
+            favorite
+            </a>
+        <a href="#" class="nav-text">Schowek</a>
+        <a href="#" class="material-symbols-outlined">
+            shopping_cart</a>
+        <a href="#" class="nav-text">Koszyk</a>
+        </div>
     </header>
 </body>
 </html>
